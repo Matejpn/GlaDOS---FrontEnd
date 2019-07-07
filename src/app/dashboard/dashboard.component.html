@@ -1,0 +1,80 @@
+<div class="container-fluid">
+    <div class="col-md-12">
+        <div class="card ">
+            <div class="header">
+                <h4 class="title" style="text-align: center; font-size: 35px">Temperature and Humidity
+                </h4>
+                <div class="col-md-5">
+                    <h4 #currTemp>Current temperature: </h4>
+
+                </div>
+                <h4 #currHum>Current humidity:</h4>
+
+
+            </div>
+            <div class="content">
+                <div id="chartActivity" class="ct-chart"></div>
+
+                <div class="footer">
+                    <div class="chart-legend">
+                        <i class="fa fa-circle text-danger"></i> Temperature
+                        <i class="fa fa-circle text-info"></i> Humidity
+                    </div>
+                    <hr>
+                    <div class="stats">
+                        <i class="ti-check"></i> Data information certified
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col-md-12">
+            <div class="card">
+                <div class="header">
+                    <h4 class="title" style="text-align: center ;font-size: 35px">Day Light / Time</h4>
+
+                </div>
+                <div class="content">
+                    <div id="chartHours" class="ct-chart"></div>
+                    <div class="footer">
+                        <div class="chart-legend">
+                            <i class="fa fa-circle text-info"></i> Brightness value
+
+
+                        </div>
+                        <hr>
+                        <div class="stats">
+                            <i class="ti-reload"></i> Updated 3 minutes ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-12">
+            <div class="card ">
+                <div class="header">
+                    <h4  class="title">Image</h4>
+                    <h4 #time class="time">Time : </h4>
+                    <h4 #person class="description1"></h4>
+                    <h4 #objects class="description2"></h4>
+
+
+                </div>
+                <div align="center" class="content">
+                    <img  #imageViewer class="ct-chart"/>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
